@@ -14,11 +14,24 @@ This repo documents my step-by-step progress in learning **Machine Learning & AI
 - **Day 1** → Multiple Linear Regression basics (equation, interpretation, coefficients)  
 - **Day 2** → Model evaluation (R², Adjusted R², RMSE, MAE, Residual plots, Cross-validation, VIF)  
 - **Day 3** → Overfitting and Regularization (Ridge & Lasso regression with interpretation)  
-- **Day 4+ (Coming Soon)** → Advanced ML techniques  
+
+## Day 4 – Polynomial Regression
+
+- Learned about **Polynomial Regression** as an extension of Linear Regression.  
+- Key steps:
+  - Used `PolynomialFeatures` to transform input features into polynomial terms.
+  - Trained models using **LinearRegression()** on both raw and transformed features.
+- Observations:
+  - Polynomial regression improves performance on nonlinear data.
+  - Compared results for degree = 2 and degree = 10:
+    - Degree 2 showed a significant improvement over plain Linear Regression.
+    - Degree 10 improved slightly further, but risk of overfitting increases.
+- Files:
+  - `DAY_4/Day4_Polynomial_Reg_1.ipynb`
+  - `DAY_4/Day4_Polynomial_Reg_2.ipynb`
+
 
 ---
-
-
 
 
 
