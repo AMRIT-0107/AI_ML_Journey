@@ -31,6 +31,19 @@ This repo documents my step-by-step progress in learning **Machine Learning & AI
   - `DAY_4/Day4_Polynomial_Reg_2.ipynb`
 
 
+##Day 5: Classification Metrics and Regularization
+	-Regularization (Lasso & Ridge):
+	-Helps prevent overfitting by penalizing large coefficients.
+
+	-Confusion Matrix:
+	-Shows how many predictions were correct vs incorrect across classes (TP, TN, FP, FN).
+
+	-ROC (Receiver Operating Characteristic) Curve:
+	-Plots True Positive Rate vs False Positive Rate across thresholds.
+
+	-AUC (Area Under Curve):
+	-A single score summarizing the ROC curve → measures how well a model ranks positives vs negatives.
+
 ---
 
 
